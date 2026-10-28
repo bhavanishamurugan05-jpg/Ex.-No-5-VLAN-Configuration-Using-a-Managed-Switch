@@ -1,5 +1,5 @@
 ## Ex. No: 5  VLAN Configuration Using a Managed Switch
-Date:
+## Date : 28/10/26
 ________________________________________
 # Objective
 To configure Virtual Local Area Networks (VLANs) on a managed switch and verify that hosts within the same VLAN can communicate while others cannot.
@@ -16,6 +16,9 @@ Description:<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
 (Insert screenshot of your Packet Tracer setup here)<br>
+
+<img width="1913" height="1010" alt="Screenshot 2026-10-28 180247" src="https://github.com/user-attachments/assets/7a983223-f695-4b9c-838e-87c5faaaa899" />
+
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
@@ -61,9 +64,27 @@ Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on switch<br>
+
+<img width="1917" height="1007" alt="Screenshot 2026-10-28 180318" src="https://github.com/user-attachments/assets/41205c0a-97ee-4bbd-a977-48881b8c4661" />
+
 •	PC IP settings<br>
+
+<img width="1643" height="992" alt="Screenshot 2026-10-28 180336" src="https://github.com/user-attachments/assets/603a1eb7-0c23-4659-8258-3bfc67b3e9a7" />
+
+
 •	Successful ping between PCs in the same VLAN<br>
+
+<img width="1862" height="836" alt="Screenshot 2026-10-28 181223" src="https://github.com/user-attachments/assets/535e1629-d5c4-447a-adf2-9283219f2817" />
+
+<img width="1815" height="812" alt="Screenshot 2026-10-28 181708" src="https://github.com/user-attachments/assets/7c657ef9-d012-4d3c-88ba-e24d84342cc7" />
+
+
 •	Failed ping between PCs in different VLANs<br>
+
+<img width="1626" height="720" alt="Screenshot 2026-10-28 181438" src="https://github.com/user-attachments/assets/48e89b03-82e4-46c5-8c92-00915ec3dd07" />
+
+
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
